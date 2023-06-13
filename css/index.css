@@ -1,0 +1,284 @@
+
+
+
+body{
+  background: #00BFFF;
+  width: 100%;
+  height: 100%;
+   overflow-y: hidden;
+}
+
+.div_reg{
+  position: absolute;
+  top: 5%;
+  left: 1620px;
+}
+
+#vsplv_wind{
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color:gray;
+}
+a:hover{
+  color:black;
+}
+
+.gl_str{
+  background: white;
+  width: 1850px;
+  height: 830px;
+  position: relative;
+  left: 1%;
+  bottom: 20px;
+  border-radius:  20px;
+  top: 100px;
+
+
+}
+
+.title_name{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  left: 700px;
+  bottom: 87%;
+
+}
+
+.menu{
+  color: black;
+  width: 16%;
+  height: 57%;
+  position: relative;
+  top:20px;
+  left: 1525px;
+  border: 2px solid Silver;
+  text-align: center;
+  border-radius:  20px;
+}
+
+.name_menu{
+  position: relative;
+  top: 13px;
+}
+
+.quest_spec_name{
+  position: relative;
+
+}
+
+.questions_specialist{
+  color: black;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 30px;
+  left: 1525px;
+  border: 2px solid Silver;
+  text-align: center;
+  border-radius:  20px;
+
+}
+
+.vopros{
+  width: 240px;
+}
+
+#ocenka_nastroeniya{
+  border: 2px solid Silver;
+  text-align: center;
+  width: 600px;
+  height: 250px;
+  position: relative;
+  bottom: 758px;
+  left: 900px;
+  display: block;
+  border-radius:  20px;
+
+}
+#sps_za_otz{
+  border: 2px solid Silver;
+  text-align: center;
+  width: 600px;
+  height: 250px;
+  position: relative;
+  right: 2px;
+  bottom: 202px;
+  display: none;
+  border-radius:  20px;
+
+}
+
+.snvak{
+  position: absolute;
+  top: 20px;
+}
+
+.sps_text{
+  position: relative;
+  top: 90px;
+}
+.nastr_pictures_ok{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 35px;
+}
+.nastr_pictures_normal{
+  width: 105px;
+  height:115px;
+  position: relative;
+  top: 9px;
+}
+.nastr_pictures_bad{
+  width: 105px;
+  height: 105px;
+  position: relative;
+  left: 35px;
+}
+
+#meropriyatiya_block{
+  border: 2px solid Silver;
+  text-align: center;
+  width: 600px;
+  height: 520px;
+  position: absolute;
+  right: -2px;
+  top: 263.5px;
+  border-radius:  20px;
+}
+
+#psiho1_for_project1{
+  width: 90%;
+  position: relative;
+}
+#actual_chen{
+  font-size: 70%;
+  position: relative;
+  top: 2%;
+
+}
+
+.info_pssihologiya{
+position: absolute;
+right: 103%;
+bottom: -215%;
+border: 2px solid Silver;
+text-align: center;
+width: 143%;
+height: 314%;
+border-radius:  20px;
+}
+
+
+.info_pssihologiya_text{
+width: 75%;
+position: absolute;
+left: 13%;
+}
+
+.ps2{
+  width: 35%;
+  position: absolute;
+  top: 77%;
+  right: 52%;
+  }
+.ps1{
+  width: 35%;
+  position: absolute;
+  top: 77%;
+  right: 12%;
+  }
+
+#oc_n1{}
+#pictures_nastr{}
+#pictures_nastr1{}
+#pictures_nastr2{}
+
+#vhod{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  position: absolute;
+  bottom: 25px;
+  right: -40px;
+}
+#vhod:hover{
+   background-position: right center;
+}
+#avatar{
+  width: 13%;
+  display: none;
+  position: relative;
+  bottom: 75px;
+  left:63px;
+}
+#reg{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  position: relative;
+  bottom: 25px;
+  right: 100px;
+}
+
+#reg:hover{
+   background-position: right center;
+}
+#exit{
+  border: 0px solid Silver;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+  position: relative;
+  bottom: 25px;
+  right: 90px;
+  display: none;
+}
+
+#exit:hover{
+   background-position: right center;
+ }
+
+#ur_name{
+  display: none;
+  position: relative;
+  bottom: 118px;
+  left:107px;
+  font-size:22px;
+}

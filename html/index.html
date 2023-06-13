@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="..\css\index.css">
+    <link rel="stylesheet" type="text/css" href="..\css\dostupOtkaz.css">
+
+    <title>Какаята фигня</title>
+    <script src="..\js\spasibo_za_otvet.js"></script>
+    <script src="..\js\vhod.js"></script>
+    <script src="..\js\proverka_registr.js"></script>
+
+  </head>
+  <body>
+
+    <h1 class="title_name">Психология школьников</h1>
+
+    <div class="div_reg">
+      <button id="reg" type="button" onclick="as1() ">Регистрация</button>
+      <button id="vhod" type="button" onclick="as2()">Войти</button>
+      <button id="exit" type="button" onclick="as3()">Выйти</button>
+      <img id="avatar" src="..\pictures\avatar.png" alt="">
+      <h3 id='ur_name'></h3>
+    </div>
+
+    <div class="gl_str">
+
+      <div class="menu">
+        <h1 class="name_menu">Меню</h1>
+        <br>
+        <hr style="border: 1px solid Silver;">
+        <a onclick="oa2()" style="color:black"href="#"><h3>Главная страница</h3></a>
+        <hr style="border: 1px solid Silver;">
+        <a onclick="oa2()"><h3>Отзывы</h3></a>
+        <hr style="border: 1px solid Silver;">
+        <a><h3>Связь с нами</h3></a>
+        <hr style="border: 1px solid Silver;">
+        <a onclick="oa2()"><h3>Статьи</h3></a>
+        <hr style="border: 1px solid Silver;">
+        <a onclick="oa2()"><h3>Форум</h3></a>
+        <hr style="border: 1px solid Silver;">
+        <a onclick="oa2()"><h3>О нас</h3></a>
+      </div>
+
+      <div class="questions_specialist">
+        <h1>Вопросы специалисту</h1>
+        <input class="quest_spec_name" type="text" size="30" placeholder="                             Имя">
+        <br><br>
+        <input class="quest_spec_name" type="text" size="30" placeholder="                Эл.почта для ответа">
+        <br><br>
+        <textarea class="vopros" name="comment" size="30" cols="40" rows="3" placeholder="              Вопрос"></textarea>
+        <p onclick="oa2()"><input type="submit"  value="Отправить">
+        <input type="reset" value="Очистить"></p>
+      </div>
+
+      <div id="ocenka_nastroeniya">
+        <h1 id="oc_n1">Оцените свое настроение</h1>
+
+        <a onmousedown="viewDiv()" href="#" class="ok"><img src="..\pictures\ok.png" id="pictures_nastr" class="nastr_pictures_ok"></a>
+        <a onmousedown="viewDiv()" href="#" class="normal"><img src="..\pictures\normal.png" id="pictures_nastr1" class="nastr_pictures_normal"></a>
+        <a onmousedown="viewDiv()" onmousedown="bad()" ref="#" class="bad"><img src="..\pictures\bad.png" id="pictures_nastr2" class="nastr_pictures_bad"></a>
+
+        <div id="sps_za_otz">
+          <h1 class="sps_text">СПАСИБО ЗА ОТВЕТ!</h1>
+        </div>
+
+        <div id="meropriyatiya_block">
+          <h1>Наши мероприятия</h1>
+          <img id="psiho1_for_project1" src="..\pictures\psiho1_for_project1.jpg" alt="#">
+          <p id="actual_chen">*Для записи обращайтесь по телефону +7-999-999-99-99</p>
+        </div>
+
+
+
+
+
+
+        <div class="info_pssihologiya">
+          <div class="info_pssihologiya_text">
+
+
+            <h1>Информация о психологии</h1>
+            <hr>
+            <h3>Что
+            такое школьная психология?
+             Школьная психология – это специальность,
+            готовящая психолога к работе в школе, психолого – педагогической клинике
+            и других образовательных учреждениях. Выпускник этой специальности
+            найдет работу в центрах социальной терапии для молодежи, в школьных и
+            муниципальных учреждениях.</h3>
+            <br>
+            <h3>Кто такой школьный психолог?
+              Школьный психолог – это связующее звено между педагогами, родителями и учениками. Он помогает ребёнку социализироваться, принять изменения, связанные с возрастом, правильно выстроить восприятие окружающего мира и при необходимости разрешить конфликтные ситуации.</h3>
+            <br>
+            <h3>Что проверяет школьный психолог?
+Психолог подбирает методику, направленную на изучение интересующих его способностей, особенностей ребенка (группы учащихся). Это могут быть методики, направленные на изучение уровня развития внимания, мышления, памяти, эмоциональной сферы, особенностей личности и взаимоотношений с окружающими.</h3>
+            <hr>
+
+          </div>
+          <img class="ps2" src="../pictures\ps2.jpg" alt="#">
+          <img class="ps1" src="../pictures\ps1.jpg" alt="#">
+
+       </div>
+
+       <div id='dostupOtkaz1'>
+         <div id="dostupOtkaz">
+           <h1 class="snvak">Сначало войди в аккаунт!</h1>
+         </div>
+       </div>
+
+     </div>
+
+
+
+    </div>
+  </body>
+</html>

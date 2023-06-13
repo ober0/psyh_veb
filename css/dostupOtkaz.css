@@ -1,0 +1,22 @@
+#dostupOtkaz{
+  height: 100px;
+  width: 400px;
+  background: yellow;
+  border: 3px solid black;
+  position: absolute;
+  right:39%;
+  top: 36%;
+  border-radius:  20px;
+
+}
+
+#dostupOtkaz1{
+  background: rgba(100,100,100,0.8);
+  border-radius:  20px;
+  position: absolute;
+  width: 1865px;
+  height: 830px;
+  display: none;
+  right: -60.3%;
+  top: -10%;
+}
